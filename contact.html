@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <style>
+         body {
+
+background-image: url("./img/45.gif");
+}
+
+        .navbar {
+            position: absolute;
+            top: 15%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 60%;
+            height: 50px;
+            background-color: rgb(44, 12, 187);
+            border-radius: 30px;
+
+        }
+
+
+        .navbar .menu p {
+
+            display: inline-block;
+            margin: 0px;
+            padding: 10px;
+            font-size: 20px;
+
+        }
+
+        .navbar .menu p a {
+            text-decoration: none;
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            transition: 0.3s ease-in-out;
+
+        }
+
+        .navbar .menu p a:hover {
+            color: rgb(38, 14, 95);
+            letter-spacing: 2px;
+        }
+
+        .navbar .menu p:first-child {
+            margin-left: 200px;
+
+        }
+
+
+        fieldset {
+            background-color: #3b76e6;
+        }
+
+        legend {
+            background-color: rgb(81, 89, 134);
+            color: white;
+            padding: 5px 10px;
+        }
+
+        input {
+            margin: 5px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <marquee style="color: rgb(57, 5, 201);" width="100%" direction="right" height="100px">
+        <h1> Learn English Through Online </h1>
+    </marquee>
+
+    <!-----NAVBAR BASLADI-->
+
+    <div class="navbar">
+        <div class="menu">
+
+
+            <p class="items"><a href="about.html">About</a></p>
+            <p class="items"><a href="book.html">Books</a></p>
+            <p class="items"><a href="Film.html">Films</a></p>
+            <p class="items"><a href="For kids.html">For kids</a></p>
+            <p class="items"><a href="song.html">Songs</a></p>
+            <p class="items"><a href="contact.html">Contact Us</a></p>
+
+
+
+        </div>
+    </div>
+
+    <!-----NAVBAR BITDI-->
+
+    <!-----Home page sector start-->
+
+    <!--FIELDSET start-->
+
+    <div style="width: 30%;">
+        <form action="/action_page.php">
+            <fieldset>
+                <legend>Personalia:</legend>
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="birthday">Birthday:</label>
+                <input type="date" id="birthday" name="birthday"><br><br>
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+
+    </div>
+    <hr>
+    
+
+    <!-----Mətn daxiletmə inputlari-->
+
+    <div>
+        <form action="/action_page.php">
+
+
+        <h3 class="txt" style="color:rgb(60, 27, 180);">Defines a date control (year, month, day )-Tarix nəzarətini müəyyən edir (il, ay, gün )</h3>
+
+        <input type="datetime-local" />
+        <br>
+        <h3 class="txt" style="color:rgb(60, 27, 180);">Defines a range control (like a slider control)-Range control (slider control kimi) müəyyən edir</h3>
+        <input type="range" />
+        <br>
+        <h3 class="txt" style="color:rgb(60, 27, 180);">Defines a radio button-Radio düyməni təyin edir</h3>
+        <input type="radio" />
+        <br>
+        <h3 class="txt" style="color:rgb(60, 27, 180);">Defines a field for entering a number-Nömrəyə daxil olmaq üçün sahəni müəyyən edir</h3>
+        <input type="number" />
+        <br>
+        <h3 class="txt" style="color:rgb(60, 27, 180);">Defines a control for entering a time (no timezone)-Zamana daxil olmaq üçün nəzarəti müəyyən edir (vaxtsız)/h3>
+        <input type="time" />
+        <br>
+        <h3 class="txt" style="color:rgb(60, 27, 180);">Default. Defines a single-line text field-Ön qurğulu. Vahid sətirli mətn sahəsini müəyyən edir</h3>
+        <input type="text" />
+        <br>
+        <h3 class="txt" style="color:rgb(60, 27, 180);">Choose File - fail axtarmaq mümkündür</h3>
+        <input type="file">
+        <br> 
+        <h3 class="txt" style="color:rgb(60, 27, 180);">Defines a text field for entering a search string-Axtarış qatarının daxil edilməsi üçün mətn sahəsini müəyyən edir</h3>
+        <input type="search">
+        <br>
+        <h3 class="txt" style="color:rgb(60, 27, 180);">Defines a field for entering a URL-URL daxil olmaq üçün bir sahə müəyyən edir</h3>
+        <input type="url">
+        <br>
+        <h3 class="txt" style="color:rgb(60, 27, 180);">Defines a password field-Şifrə sahəsini təyin edir</h3>
+        <input type="password">
+        <br>
+        <h3 class="txt" style="color:rgb(60, 27, 180);">Defines a field for an e-mail address-E-poçt ünvanı üçün sahəni müəyyən edir</h3>
+        <input type="email">
+        <br>
+        <h3 class="txt" style="color:rgb(60, 27, 180);">Defines a field for entering a telephone number-Telefon nömrəsinə daxil olmaq üçün sahəni müəyyən edir</h3>
+        <input type="tel">
+        <br>
+
+        <h3 class="txt" style="color:rgb(60, 27, 180);"> Defines a radio button-Radio düyməni təyin edir</h3>
+        <input type="radio">
+        <br>
+        <h3 class="txt" style="color:rgb(60, 27, 180);">Defines a checkbox- Checkbox hazırlamağ üçün istifadə olunur</h3>
+        <input type="checkbox">
+        <br>
+        <h3 class="txt" style="color:rgb(60, 27, 180);">Defines a submit button-Göndərmə düyməsini müəyyən edir</h3>
+
+        <input type="submit">
+        <br>
+
+        <h3 class="txt" style="color:rgb(60, 27, 180);">Defines a clickable button (mostly used with a JavaScript to activate a script)-Click oluna bilinən buton əlavə edir</h1>
+        <input type="button">
+        <br>
+
+        <h3 class="txt" style="color:rgb(60, 27, 180);">Defines a color picker - Rəng calarlarini müəyyən edir</h1>
+        <input type="color">
+        <br>
+        <h3 class="txt" style="color:rgb(60, 27, 180);">Defines a reset button -Sıfırlanma düyməsini müəyyən edir</h1>
+        <input type="reset">
+        <br>
+
+        <a href= "mailto: abc@example.com"><h1> Please, Send Email</h1></a>
+      </form>
+    
+
+</body>
+
+</html>
